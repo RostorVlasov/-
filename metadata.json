@@ -1,0 +1,6 @@
+{
+  "name": "Кот Моне — филамент для творчества",
+  "description": "Премиальный PETG филамент с авторской палитрой оттенков для 3D-печати. Точность ±0,02 мм, идеальная намотка, совместимость с AMS и CFS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

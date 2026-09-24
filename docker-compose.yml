@@ -1,0 +1,11 @@
+services:
+  kotmone-web:
+    build: .
+    container_name: kotmone-app
+    restart: unless-stopped
+    ports:
+      - "2026:2026"
+    environment:
+      - NODE_ENV=production
+      - PORT=2026
+      - BITRIX24_WEBHOOK_URL=https://b24-dakcpn.bitrix24.ru/rest/74/loxxe0nb4o344nz3/crm.lead.add.json
